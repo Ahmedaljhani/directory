@@ -1,6 +1,8 @@
+import 'package:directory/views/arabic/home_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../animations/customShimmerAnimation.dart';
+import '../../animations/toScreenAnimation.dart';
 import '../../app_them.dart';
 
 class Welcome3EnScreen extends StatefulWidget {
@@ -142,8 +144,8 @@ class _Welcome3EnScreenState extends State<Welcome3EnScreen> {
                                               ))),
                                       onPressed: () {
 
-                                        // Navigator.of(context)
-                                        //     .pushReplacement(ToScreenAnimation(page: Welcome2EnScreen()));
+                                        Navigator.of(context)
+                                            .pushReplacement(ToScreenAnimation(page: HomeScreen()));
                                       },
 
                                       child: const Text(
@@ -168,12 +170,11 @@ class _Welcome3EnScreenState extends State<Welcome3EnScreen> {
                                                 BorderRadius.circular(30.0),
                                                 // side: BorderSide(color: Colors.red)
                                               ))),
-                                      // onPressed: () {
+                                      onPressed: () {
 
-                                      //   Navigator.of(context)
-                                      //       .pushReplacement(ToScreenAnimation(page: LoginScreen()));
-                                      // },
-                                      onPressed: () {},
+                                        Navigator.of(context)
+                                            .pushReplacement(ToScreenAnimation(page: HomeScreen()));
+                                      },
                                       child: const Text(
                                         "Skip",
                                         style: AppTheme.btnwhite,

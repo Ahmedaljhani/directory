@@ -1,3 +1,4 @@
+import 'package:directory/views/arabic/home_screen.dart';
 import 'package:directory/views/english/welcom1en_screen.dart';
 import 'package:directory/views/languge_screen.dart';
 import 'package:directory/views/splash_screen.dart';

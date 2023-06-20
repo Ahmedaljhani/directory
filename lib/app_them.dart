@@ -29,7 +29,7 @@ class AppTheme {
     headline4: welcome,
     headline5: headline,
     headline6: btnprimary,
-    subtitle2: subtitle,
+    headline2: pagename,
     bodyText2: body2,
     bodyText1: body1,
     caption: caption,
@@ -90,22 +90,22 @@ class AppTheme {
     letterSpacing: 0.18,
     color: primary,
   );
-  static const TextStyle rooms = TextStyle(
+  static const TextStyle importtext = TextStyle(
     // h6 -> title
     fontFamily: fontName,
     fontWeight: FontWeight.bold,
-    fontSize: 14.5,
+    fontSize: 16,
     letterSpacing: 0,
     color: darkerText,
-  );
-  static const TextStyle subtitle = TextStyle(
-    // subtitle2 -> subtitle
+      decoration: TextDecoration.none);
+  static const TextStyle pagename = TextStyle(
+    // pagename2 -> pagename
     fontFamily: fontName,
     fontWeight: FontWeight.w400,
-    fontSize: 14,
+    fontSize: 16,
     letterSpacing: -0.04,
-    color: darkText,
-  );
+    color: white,
+      decoration: TextDecoration.none);
 
   static const TextStyle body2 = TextStyle(
     // body1 -> body2
@@ -129,8 +129,8 @@ class AppTheme {
     // Caption -> caption
     fontFamily: fontName,
     fontWeight: FontWeight.w400,
-    fontSize: 12,
+    fontSize: 13,
     letterSpacing: 0.2,
     color: lightText, // was lightText
-  );
+      decoration: TextDecoration.none);
 }

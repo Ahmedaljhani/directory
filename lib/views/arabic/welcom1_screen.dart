@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../animations/customShimmerAnimation.dart';
 import '../../animations/toScreenAnimation.dart';
 import '../../app_them.dart';
+import 'home_screen.dart';
 
 class Welcome1Screen extends StatefulWidget {
   const Welcome1Screen({Key? key}) : super(key: key);
@@ -139,12 +140,12 @@ SizedBox(height: screenHeight*0.05,),
                                                 BorderRadius.circular(30.0),
                                                 // side: BorderSide(color: Colors.red)
                                               ))),
-                                      // onPressed: () {
 
-                                      //   Navigator.of(context)
-                                      //       .pushReplacement(ToScreenAnimation(page: LoginScreen()));
-                                      // },
-                                      onPressed: () {},
+                                      onPressed: () {
+
+                                        Navigator.of(context)
+                                            .pushReplacement(ToScreenAnimation(page: HomeScreen()));
+                                      },
                                       child: const Text(
                                         "تخطي",
                                         style: AppTheme.btnwhite,

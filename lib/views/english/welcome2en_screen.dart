@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import '../../animations/customShimmerAnimation.dart';
 import '../../animations/toScreenAnimation.dart';
 import '../../app_them.dart';
+import '../arabic/home_screen.dart';
 
 class Welcome2EnScreen extends StatefulWidget {
   const Welcome2EnScreen({Key? key}) : super(key: key);
@@ -170,12 +171,11 @@ class _Welcome2EnScreenState extends State<Welcome2EnScreen> {
                                                 BorderRadius.circular(30.0),
                                                 // side: BorderSide(color: Colors.red)
                                               ))),
-                                      // onPressed: () {
+                                      onPressed: () {
 
-                                      //   Navigator.of(context)
-                                      //       .pushReplacement(ToScreenAnimation(page: LoginScreen()));
-                                      // },
-                                      onPressed: () {},
+                                        Navigator.of(context)
+                                            .pushReplacement(ToScreenAnimation(page: HomeScreen()));
+                                      },
                                       child: const Text(
                                         "Skip",
                                         style: AppTheme.btnwhite,

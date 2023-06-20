@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../animations/customShimmerAnimation.dart';
 import '../../animations/toScreenAnimation.dart';
 import '../../app_them.dart';
+import 'home_screen.dart';
 
 class Welcome2Screen extends StatefulWidget {
   const Welcome2Screen({Key? key}) : super(key: key);
@@ -139,12 +140,11 @@ class _Welcome2ScreenState extends State<Welcome2Screen> {
                                                 BorderRadius.circular(30.0),
                                                 // side: BorderSide(color: Colors.red)
                                               ))),
-                                      // onPressed: () {
+                                      onPressed: () {
 
-                                      //   Navigator.of(context)
-                                      //       .pushReplacement(ToScreenAnimation(page: LoginScreen()));
-                                      // },
-                                      onPressed: () {},
+                                        Navigator.of(context)
+                                            .pushReplacement(ToScreenAnimation(page: HomeScreen()));
+                                      },
                                       child: const Text(
                                         "تخطي",
                                         style: AppTheme.btnwhite,

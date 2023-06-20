@@ -85,7 +85,12 @@ flutter:
     - assets/images/logo2.png
     - assets/images/logobg.png
     - assets/images/socialicons.png
+    - assets/images/impcard.jpg
     - assets/images/mapicon.png
+    - assets/images/Map.png
+    - assets/images/Web.png
+    - assets/images/youtube.png
+    - assets/images/facebook.png
 
 
 
