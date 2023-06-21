@@ -6,6 +6,7 @@ import '../../animations/customShimmerAnimation.dart';
 import '../../animations/toScreenAnimation.dart';
 import '../../app_them.dart';
 import '../arabic/home_screen.dart';
+import 'home_en_screen.dart';
 
 class Welcome2EnScreen extends StatefulWidget {
   const Welcome2EnScreen({Key? key}) : super(key: key);
@@ -174,7 +175,7 @@ class _Welcome2EnScreenState extends State<Welcome2EnScreen> {
                                       onPressed: () {
 
                                         Navigator.of(context)
-                                            .pushReplacement(ToScreenAnimation(page: HomeScreen()));
+                                            .pushReplacement(ToScreenAnimation(page: HomeEnScreen()));
                                       },
                                       child: const Text(
                                         "Skip",

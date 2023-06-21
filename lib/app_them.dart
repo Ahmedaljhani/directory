@@ -51,7 +51,7 @@ class AppTheme {
     // h4 -> welcome
       fontFamily: fontName,
       fontWeight: FontWeight.bold,
-      fontSize: 18,
+      fontSize: 16,
       letterSpacing: 0.4,
       height: 1.5,
       color: white,
@@ -61,7 +61,7 @@ class AppTheme {
       // h5 -> headline
       fontFamily: fontName,
       fontWeight: FontWeight.bold,
-      fontSize: 12,
+      fontSize: 10,
       letterSpacing: 0.1,
       color: white,
       decoration: TextDecoration.none);
@@ -78,7 +78,7 @@ class AppTheme {
     // h6 -> title
     fontFamily: fontName,
     fontWeight: FontWeight.bold,
-    fontSize: 20,
+    fontSize: 16,
     letterSpacing: 0.18,
     color: white,
   );
@@ -86,7 +86,7 @@ class AppTheme {
     // h6 -> title
     fontFamily: fontName,
     fontWeight: FontWeight.bold,
-    fontSize: 20,
+    fontSize: 16,
     letterSpacing: 0.18,
     color: primary,
   );
@@ -94,7 +94,7 @@ class AppTheme {
     // h6 -> title
     fontFamily: fontName,
     fontWeight: FontWeight.bold,
-    fontSize: 16,
+    fontSize: 14,
     letterSpacing: 0,
     color: darkerText,
       decoration: TextDecoration.none);

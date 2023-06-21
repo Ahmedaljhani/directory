@@ -137,7 +137,7 @@ class _LangugeScreenState extends State<LangugeScreen> {
                                   decoration: TextDecoration.none),
                             ),
                             SizedBox(
-                              height: screenHeight * 0.04,
+                              height: screenHeight * 0.07,
                             ),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,

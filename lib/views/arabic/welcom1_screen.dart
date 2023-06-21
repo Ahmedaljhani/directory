@@ -121,7 +121,7 @@ SizedBox(height: screenHeight*0.05,),
                               ],
                             ),
                             SizedBox(
-                              height: screenHeight * 0.04,
+                              height: screenHeight * 0.05,
                             ),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,

@@ -120,7 +120,7 @@ class _Welcome3ScreenState extends State<Welcome3Screen> {
                               ],
                             ),
                             SizedBox(
-                              height: screenHeight * 0.04,
+                              height: screenHeight * 0.05,
                             ),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,

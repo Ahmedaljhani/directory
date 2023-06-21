@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../animations/customShimmerAnimation.dart';
 import '../../animations/toScreenAnimation.dart';
 import '../../app_them.dart';
+import 'home_en_screen.dart';
 
 class Welcome3EnScreen extends StatefulWidget {
   const Welcome3EnScreen({Key? key}) : super(key: key);
@@ -145,7 +146,7 @@ class _Welcome3EnScreenState extends State<Welcome3EnScreen> {
                                       onPressed: () {
 
                                         Navigator.of(context)
-                                            .pushReplacement(ToScreenAnimation(page: HomeScreen()));
+                                            .pushReplacement(ToScreenAnimation(page: HomeEnScreen()));
                                       },
 
                                       child: const Text(
@@ -173,7 +174,7 @@ class _Welcome3EnScreenState extends State<Welcome3EnScreen> {
                                       onPressed: () {
 
                                         Navigator.of(context)
-                                            .pushReplacement(ToScreenAnimation(page: HomeScreen()));
+                                            .pushReplacement(ToScreenAnimation(page: HomeEnScreen()));
                                       },
                                       child: const Text(
                                         "Skip",
