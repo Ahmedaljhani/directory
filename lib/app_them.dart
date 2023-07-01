@@ -33,6 +33,7 @@ class AppTheme {
     bodyText2: body2,
     bodyText1: body1,
     caption: caption,
+    headlineLarge: caption1,
     headline3: btnwhite,
     headline1: welcometext,
   );
@@ -45,6 +46,16 @@ class AppTheme {
     letterSpacing: 0.4,
     height: 0.9,
     color: white,
+      decoration: TextDecoration.none
+  );
+  static const TextStyle result = TextStyle(
+    // h4 -> welcome
+      fontFamily: fontName,
+      fontWeight: FontWeight.bold,
+      fontSize: 20,
+      letterSpacing: 0.4,
+      height: 0.9,
+      color: darkText,
       decoration: TextDecoration.none
   );
   static const TextStyle welcometext = TextStyle(
@@ -132,5 +143,15 @@ class AppTheme {
     fontSize: 13,
     letterSpacing: 0.2,
     color: lightText, // was lightText
+      decoration: TextDecoration.none);
+
+
+  static const TextStyle caption1 = TextStyle(
+    // Caption -> caption
+      fontFamily: fontName,
+      fontWeight: FontWeight.w400,
+      fontSize: 13,
+      letterSpacing: 0.2,
+      color: white, // was lightText
       decoration: TextDecoration.none);
 }

@@ -6,6 +6,9 @@ import '../animations/toScreenAnimation.dart';
 import '../app_them.dart';
 import 'english/welcom1en_screen.dart';
 
+//designed by eng.Ahmed Fathi Aljhani   pohne: 0924653448  email:https://www.linkedin.com/in/ahmed-aljhani/
+
+
 class LangugeScreen extends StatefulWidget {
   const LangugeScreen({Key? key}) : super(key: key);
 
@@ -46,11 +49,14 @@ class _LangugeScreenState extends State<LangugeScreen> {
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 14),
-                        child: Image.asset(
-                          "assets/images/logobg.png",
-                          fit: BoxFit.cover,
+                        child: SizedBox(
                           width: screenWidth * 1,
                           height: screenHeight * 0.4,
+                          child: Image.asset(
+                            "assets/images/logobg.png",
+                            fit: BoxFit.cover,
+
+                          ),
                         ),
                       ),
                     ],
@@ -71,7 +77,7 @@ class _LangugeScreenState extends State<LangugeScreen> {
                             SizedBox(
                               height: screenHeight * 0.3,
                             ),
-                            Text(
+                            const Text(
                               'مرحبا بك',
                               style: AppTheme.welcome,
                             ),
@@ -85,9 +91,11 @@ class _LangugeScreenState extends State<LangugeScreen> {
                                 children: [
                                   Column(
                                     children: [
-                                      Image.asset(
-                                        "assets/images/logo2.png",
+                                      SizedBox(
                                         width: screenWidth * 0.35,
+                                        child: Image.asset(
+                                          "assets/images/logo2.png",
+                                        ),
                                       ),
                                     ],
                                   ),
@@ -100,14 +108,14 @@ class _LangugeScreenState extends State<LangugeScreen> {
                                           vertical: 8.0),
                                       child: Column(
                                         children: [
-                                          Text(
+                                          const Text(
                                             "دليل المواقع الإلكترونية لوزارة الزراعة والثروة الحيوانية",
                                             style: AppTheme.headline1,
                                           ),
                                           SizedBox(
                                             height: screenHeight * 0.01,
                                           ),
-                                          Directionality(
+                                          const Directionality(
                                             textDirection: TextDirection.ltr,
                                             child: Text(
                                               "Directory of websites of the Ministry of Agriculture and Wealth",
@@ -124,7 +132,7 @@ class _LangugeScreenState extends State<LangugeScreen> {
                             SizedBox(
                               height: screenHeight * 0.2,
                             ),
-                            Text(
+                            const Text(
                               "إختر اللغة",
                               style: TextStyle(
                                   // h4 -> welcome

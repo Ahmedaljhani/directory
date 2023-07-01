@@ -6,6 +6,8 @@ import '../animations/toScreenAnimation.dart';
 import 'arabic/welcom1_screen.dart';
 import 'languge_screen.dart';
 
+//designed by eng.Ahmed Fathi Aljhani   pohne: 0924653448  email:https://www.linkedin.com/in/ahmed-aljhani/
+
 
 class splashScreen extends StatefulWidget {
   const splashScreen({Key? key}) : super(key: key);
@@ -20,7 +22,7 @@ class _splashScreenState extends State<splashScreen> {
   Future<void> loadData() async {
     // Add your app initialization logic here
     await Future.delayed(
-        Duration(milliseconds: 2950)); // Simulate a delay of 2 seconds
+        const Duration(milliseconds: 2950)); // Simulate a delay of 2 seconds
   }
   @override
   void initState() {
@@ -74,7 +76,7 @@ class _splashScreenState extends State<splashScreen> {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                   ),),
-                child: Center(
+                child: const Center(
                   child: FadeInImage(
                     width: 150,
                     fadeInDuration: Duration(seconds: 1),
